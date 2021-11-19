@@ -1,0 +1,146 @@
+.main-container {
+    min-height: 100vh;
+}
+
+.form-background {
+    max-width: 1100px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    margin: 0 auto;
+    justify-content: center;
+    background-color: #1f2235;
+}
+
+.form-background h2 {
+    color: whitesmoke;
+    letter-spacing: 0.2rem;
+    margin-bottom: 20px;
+}
+
+.form-foreground {
+    max-width: 380px;
+    margin: 0 auto;
+}
+
+.form-foreground .backgroundPic {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.form-foreground .backgroundPic img{
+    width: 100%;
+
+}
+
+.backgroundPic h4{
+    color: whitesmoke;
+    letter-spacing: 0.225rem;
+    font-weight: 400;
+    font-size: 18px;
+
+}
+
+.form-background form {
+    display: flex;
+    color: black;
+    padding: 15px;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: -10px;
+    background-color: whitesmoke;
+    border-radius: 12px;
+}
+
+form p {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #26ad0e;
+    letter-spacing: 0.4rem;
+    font-family: "Poppins Bold";
+}
+
+form label{
+    margin-bottom: 5px;
+    color: black;
+    letter-spacing: 0.2rem;
+}
+
+form input, textarea {
+    width: 100%;
+    border: 2px solid black;
+    outline: none;
+    background-color: rgba(230,230,230,0.6);
+    padding: 0.5rem 1rem;
+    margin-bottom: 22px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+textarea:focus {
+    border: 2px solid #26ad0e;
+    background-color: whitesmoke;
+}
+
+input:focus {
+    border: 2px solid #26ad0e;
+    background-color: whitesmoke;
+}
+
+form button {
+    margin-top: 15px;
+    padding: 5px;
+    outline: none;
+    width: 160px;
+    border: 2px solid #26ad0e;
+    font-size: 18px;
+    border-radius: 19px;
+    background-color: #1f2235;
+    color: whitesmoke;
+    align-items: center;
+    justify-content: center;
+}
+
+form button:hover {
+    background-color: #1f2235;
+    transition: all ease 1s;
+    border: 2px solid #1f2235;
+}
+
+.backgroundPic {
+    flex: 1;
+    align-self: center;
+    margin-right: 20px;
+}
+
+form {
+    flex: 0.9;
+}
+
+button .load {
+    width: 100%;
+}
+
+button .load img {
+    width: 20px;
+    color: #26ad0e;
+}
+
+.col i {
+    padding: 7px;
+    color: whitesmoke;
+}
+
+.col i:hover {
+    transform: scale(1.5);
+}
+
+@media screen and (min-width: 940px) {
+    .form-foreground {
+        max-width: 900px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+}
